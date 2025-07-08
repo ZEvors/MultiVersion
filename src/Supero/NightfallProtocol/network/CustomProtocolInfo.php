@@ -10,6 +10,7 @@ class CustomProtocolInfo {
 
 	public const ACCEPTED_PROTOCOLS = [
 		self::CURRENT_PROTOCOL,
+	        self::PROTOCOL_1_21_93,
 	        self::PROTOCOL_1_21_80,
 	        self::PROTOCOL_1_21_70,
 		self::PROTOCOL_1_21_60,
@@ -32,6 +33,7 @@ class CustomProtocolInfo {
 		self::CURRENT_PROTOCOL
 	];
 
+	public const PROTOCOL_1_21_93 = 819;
 	public const PROTOCOL_1_21_90 = 818;
 	public const PROTOCOL_1_21_80 = 800;
 	public const PROTOCOL_1_21_70 = 786;
